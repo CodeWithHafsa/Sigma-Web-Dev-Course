@@ -1,2 +1,2 @@
 # Sigma-Web-Dev-Course
-Source Code from Sigma Web Development Course
+Web Development Course from scrtch. This also contains source code of the Sigma Web Development Series
