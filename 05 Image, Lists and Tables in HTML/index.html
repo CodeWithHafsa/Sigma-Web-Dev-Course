@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images, Lists and Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- IMAGE IN HTML -->
+    <!-- <img src="image.png" alt="Train-image" > -->
+    <img src="image2.png" alt="Train-image" >  <!-- error image -->
+
+    <!-- adjust width & height -->
+    <!-- <img width="230" height="230"src="image.png" alt="Train-image" > -->
+
+    <!-- adjust width automatically & height=given -->
+    <img height="230"src="image.png" alt="Train-image" >
+
+        <!-- TABLE IN HTML -->
+    <table>
+        <thead>           <!-- header -->
+            <caption>Employee Details</caption>
+            <tr>
+                <th>Name</th>         <!-- table heading -->
+                <th>Designation</th>
+                <th>Fav Language</th>
+            </tr>
+        </thead>
+
+        <tbody>   <!-- body -->
+            <tr>                      <!-- table row -->
+                <td>Hafsa</td>        <!-- table data -->
+                <td>Programmer</td>
+                <td>Javascript</td>
+            </tr>
+    
+            <tr>                      <!-- table row -->
+                <td colspan="2"> Sam</td>   <!-- table data --> <!-- colspan="2" means it takes 2 column spaces -->
+                <td rowspan="2">Java</td>                       <!-- rowspan="2" means it takes 2 row spaces -->
+            </tr>
+    
+            <tr>                      <!-- table row -->
+                <td colspan="2"> Sam</td>   <!-- table data --> <!-- colspan="2" means it takes 2 column spaces -->
+            </tr>
+        </tbody>
+  
+        <tfoot> <!-- footer -->
+            <tr>                      <!-- table row -->
+                <td colspan="2"> Footer </td>   
+                <td rowspan="2">Footer </td> 
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- LIST IN HTML -->
+
+    <!-- unordered list -->
+    <ul>
+        <li>Hafsa</li>
+        <li>Rohan</li>
+        <li>Ali</li>
+    </ul>
+
+   <!-- unordered list using type attribute-->
+    <ul type="square">
+        <li>Notebook</li>
+        <li>Marker</li>
+      </ul>
+
+    <!-- ordered list -->
+    <ol>
+        <li>Hafsa</li>
+        <li>Rohan</li>
+        <li>Ali</li>
+    </ol>
+
+    <!-- ordered list using type attribute-->
+    <ol type = "A">
+        <li>Hafsa</li>
+        <li>Rohan</li>
+        <li>Ali</li>
+    </ol>
+
+</body>
+</html>
